@@ -1,22 +1,65 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Name Input</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
-        <h2>Welcome to Potatoi!</h2>
-        <p>Please enter your name</p>
 
-        <form>
-            <label>Your Name:</label>
-            <input type="text" placeholder="Enter your name">
+        <div class="left-side">
+            <h1>Welcome Back!</h1>
+            <p>Great to see you again.</p>
+            <p class="description">
+                Sign in to continue your journey with us.
+            </p>
+        </div>
 
-            <button type="submit">Submit</button>
-        </form>
+        <div class="right-side">
+
+            <form class="login-form">
+
+                <h2>Login Account</h2>
+                <p class="subtitle">Enter your details to sign in.</p>
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email"
+                    placeholder="name@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password"
+                    placeholder="Enter your password" required>
+                </div>
+
+                <div class="options">
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit">Sign In</button>
+
+                <p class="signup">
+                    Don't have an account?
+                    <a href="#">Create account</a>
+                </p>
+
+            </form>
+
+        </div>
+
     </div>
-<script src="condition.js"></script>
+<script src="function.js"></script>
 </body>
 </html>
